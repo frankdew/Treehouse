@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+List.create({name:"treehouse Ashley", description: "a treehouse for the elite", location: "England", price:600 })
+List.create({name:"treehouse Frank", description: "a treehouse for the the common man", location: "The netherlands", price:100 })
+List.create({name:"treehouse Treatment", description: "a treehouse for the frustrated man", location: "Egypt", price:200 })
+List.create({name:"treehouse Peggy", description: "a treehouse for the romantic soul", location: "France", price:300 })
+List.create({name:"treehouse Brian", description: "a treehouse for the thinkers among us", location: "Spain", price:250 })
+List.create({name:"treehouse Moon", description: "a treehouse for moon lovers", location: "China", price:400 })
+List.create({name:"treehouse Sun", description: "a treehouse for sun lovers", location: "Germany", price:450 })
+List.create({name:"treehouse The one", description: "a treehouse for the one", location: "USA", price:350 })
+List.create({name:"treehouse Just relax", description: "a treehouse for relaxing", location: "Canada", price:275 })
+List.create({name:"treehouse Get out", description: "a treehouse for disappearing", location: "Lebanon", price:550 })
