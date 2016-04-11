@@ -1,5 +1,6 @@
 <h1>TreeHouses</h1>
 
 <% @listings.each do |listing| %>
+
     <p><%= link_to listing.name, listing_path( listing.id ) %></p>
 <% end %>
