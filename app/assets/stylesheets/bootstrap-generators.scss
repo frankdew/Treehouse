@@ -3,16 +3,16 @@
 @import "bootstrap.scss";
 
 body {
-  padding-top: $navbar-height + 10px;
+  padding-top: $navbar-height + 13px;
 }
 
 .page-header {
   a.btn {
-    float: right;
+    float: center;
   }
 
   a.btn + a.btn {
-    margin-right: 8px;
+    margin-right: 7px;
   }
 }
 
