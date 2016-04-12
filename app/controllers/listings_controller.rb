@@ -4,5 +4,6 @@ class ListingsController < ApplicationController
   end
 
   def show
-  end
+      @listing = Listing.find( params[:id] )
+   end
 end

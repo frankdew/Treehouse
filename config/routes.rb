@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
    root 'listings#index'
 
+   get 'listings/:id' => 'listings#show', as: :listing
+
 end
