@@ -2,10 +2,10 @@
 
 <div class="row">
   <% @listings.each do |listing| %>
-  <div class="col-md-4">
+  <div class="col-sm-6 col-md-4">
     <%= link_to listing do %>
       <h2><%= listing.name %></h2>
-      <%= image_tag(listing.photo, class: "img-responsive") %>
+      <%= image_tag(listing.photo,:width => 250, :height => 250, :crop => :fill, class: "img-circle") %>
     <% end %>
   </div>
   <% end %>
