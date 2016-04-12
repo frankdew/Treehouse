@@ -23,6 +23,7 @@ ActiveRecord::Schema.define(version: 20160412135121) do
     t.string   "price"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
+    t.string   "photo"
   end
 
   create_table "users", force: :cascade do |t|
