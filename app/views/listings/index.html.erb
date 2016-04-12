@@ -1,6 +1,12 @@
 <h1>TreeHouses</h1>
 
-<% @listings.each do |listing| %>
-
-    <p><%= link_to listing.name, listing_path( listing.id ) %></p>
-<% end %>
+<div class="row">
+  <% @listings.each do |listing| %>
+  <div class="col-md-4">
+    <%= link_to listing do %>
+      <h2><%= listing.name %></h2>
+      <%= image_tag(listing.photo, class: "img-responsive") %>
+    <% end %>
+  </div>
+  <% end %>
+</div>
