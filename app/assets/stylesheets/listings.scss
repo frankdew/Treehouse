@@ -1,3 +1,18 @@
 body {
-  background-image: image-url("palmtree.jpg");
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: justify;
+  position: static;
+  color: white;
+  font-size: 25px;
+  link-color: white;
+  text-decoration: none;
+  background-image:image-url('palmtree.jpg');
+}
+
+/* unvisited link */
+a:link {
+    font-size: 28px;
+    color: white;
+
+    text-decoration: none;
 }
