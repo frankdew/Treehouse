@@ -1,4 +1,4 @@
-class UserController < ApplicationController
+class UsersController < ApplicationController
   # GET /users/new
     def new
       @user = User.new
@@ -10,7 +10,7 @@ class UserController < ApplicationController
       @user = User.new(user_params)
 
       if @user.save
-        redirect_to root_path, notice: "Hi, #{@user.name}!"
+        redirect_to root_path, notice: "Hi, #{@user.username}!"
       else
         render :new
       end
@@ -19,7 +19,7 @@ class UserController < ApplicationController
     private
 
     def user_params
-      params.require(:user).permit(:name, :password)
+      params.require(:user).permit(:username, :password)
     end
 
 end

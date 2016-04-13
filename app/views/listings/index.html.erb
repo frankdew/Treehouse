@@ -1,6 +1,16 @@
+
+<h1>Welcome</h1>
+<p>Please <%= link_to "register", new_user_path %> first.</p>
+
 <h1>TreeHouses</h1>
 
-<% @listings.each do |listing| %>
-
-    <p><%= link_to listing.name, listing_path( listing.id ) %></p>
-<% end %>
+<div class="row">
+  <% @listings.each do |listing| %>
+  <div class="col-sm-6 col-md-4">
+    <%= link_to listing do %>
+      <h2><%= listing.name %></h2>
+      <%= image_tag(listing.photo,:width => 250, :height => 250, :crop => :fill, class: "img-circle") %>
+    <% end %>
+  </div>
+  <% end %>
+</div>
