@@ -11,3 +11,9 @@ Listing.create(name:"Treehouse Gloria", description: "a treehouse for relaxing",
 Listing.create(name:"Treehouse Jake", description: "a treehouse for cocooning", location: "Lebanon", price:550, photo: "twoodford.jpg")
 Listing.create(name:"Treehouse Suzanne", description: "a treehouse for disappearing", location: "USA", price:950, photo: "mirror_treehouse.jpg")
 Listing.create(name:"Treehouse Jake", description: "a treehouse for Netflixing", location: "Japan", price:750, photo: "red_treehouse.jpg")
+
+User.delete_all
+
+frank = User.create( email: 'frank@ex.com', password: 'abcd1234' )
+alice = User.create( email: 'alice@ex.com', password: 'abcd1234' )
+anton = User.create( email: 'anton@ex.com', password: 'abcd1234' )
