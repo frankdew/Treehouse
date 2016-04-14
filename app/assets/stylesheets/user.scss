@@ -9,11 +9,21 @@ html, body {
     position: sticky;
     color: #49A220;
     font-variant: small-caps;
-    font-size: 25px;
+    font-size: 28px;
     link-color: white;
     text-decoration: none;
     background-image: image-url('palmtree.jpg');
     background-repeat: no-repeat;
 
 
+}
+
+/* unvisited link */
+a {
+    font-size: 28px;
+    color: #186B00;
+    text-decoration: none;
+}
+a:hover {
+    color: white
 }
