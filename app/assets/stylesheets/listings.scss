@@ -1,18 +1,33 @@
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+
 body {
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-align: justify;
-  position: static;
-  color: white;
-  font-size: 25px;
-  link-color: white;
-  text-decoration: none;
-  background-image:image-url('palmtree.jpg');
+    position: relative;
+    padding: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    position: sticky;
+    color: white;
+    font-size: 25px;
+    link-color: white;
+    text-decoration: none;
+    background-image:image-url('palmtree.jpg');
+
 }
 
 /* unvisited link */
-a:link {
+a {
     font-size: 28px;
-    color: white;
-
+    color: #186B00;
     text-decoration: none;
+}
+
+.navbar{
+  background-color: #064107;
+}
+.icon-bar{
+  background-color: white;
 }
