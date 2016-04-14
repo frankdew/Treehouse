@@ -1,4 +1,5 @@
 
+
 <h1>Welcome</h1>
 
 <br>
@@ -7,8 +8,9 @@
 
 <%= stylesheet_link_tag "listings.scss" %>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
 <div class="overlay"></div>
-  <div class="modal">WELCOME TREEHOUSE LOVERS!</div>
+  <div class="animated infinite bounce">TreeHouse for rent!</div>
   <% @listings.each do |listing| %>
   <div class="col-sm-6 col-md-4">
     <%= link_to listing do %>
