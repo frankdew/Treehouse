@@ -13,8 +13,6 @@ html, body {
     link-color: white;
     text-decoration: none;
     background-image: image-url('palmtree.jpg');
-    background-repeat: no-repeat;
-
 
 }
 
@@ -30,4 +28,5 @@ a:hover {
 
 .navbar{
   background-color: #064107;
+  position: fixed;
 }
