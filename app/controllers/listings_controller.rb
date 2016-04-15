@@ -3,8 +3,12 @@ class ListingsController < ApplicationController
     @listings = Listing.all
   end
 
-  # before_show :authenticate_user!
+  before_action :authenticate_user!, :except => [:show, :index, :contact, :about]
+
   def show
       @listing = Listing.find( params[:id] )
+   end
+
+   def rent
    end
 end

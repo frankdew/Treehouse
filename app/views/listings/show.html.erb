@@ -10,5 +10,7 @@
 <p>Description: <%= @listing.description %></p>
 <p>Location: <%= @listing.location %></p>
 <p>Price: <%= @listing.price %></p>
+<p><button><%= link_to "Rent", rent_path %></button></p>
+
 <p><%= image_tag  src=@listing.photo, :width => 500, :height => 500, :crop => :fill, class: "img-circle" %></p>
 <p><%= link_to "Back", root_path %></p>
