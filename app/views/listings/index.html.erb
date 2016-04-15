@@ -9,8 +9,6 @@
 <%= stylesheet_link_tag "listings.scss" %>
 <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 
-<div class="overlay"></div>
-  <div class="animated infinite bounce">TreeHouse for rent!</div>
   <% @listings.each do |listing| %>
   <div class="col-sm-6 col-md-4">
     <%= link_to listing do %>
@@ -22,11 +20,10 @@
 </div>
 <br>
 <br>
-<<<<<<< HEAD
-<h3>Please <%= link_to "register", new_user_path %> first.</h3>
-=======
-<br>
-<h3>Please <%= link_to "register",new_user_registration_path %> first.</h3>
->>>>>>> deviseuser
+
+
+<!-- <br>
+<h3>Please <%= link_to "register",new_user_registration_path %> first.</h3> -->
+
 <br>
 <br>
