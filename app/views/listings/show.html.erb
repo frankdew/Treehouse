@@ -1,5 +1,21 @@
+<<<<<<< HEAD
 <h1><%= @listing.name %></h1>
 
 <p>Description: <%= @listing.description %></p>
 <p>Location: <%= @listing.location %></p>
 <p>Price: <%= @listing.price %></p>
+=======
+<%= stylesheet_link_tag "listings.scss" %>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+<br>
+<br>
+<h1><%= @listing.name %></h1>
+
+<br>
+<p>Description: <%= @listing.description %></p>
+<p>Location: <%= @listing.location %></p>
+<p>Price: <%= @listing.price %></p>
+<p><%= image_tag  src=@listing.photo, :width => 500, :height => 500, :crop => :fill, class: "img-circle" %></p>
+<p><%= link_to "Back", root_path %></p>
+>>>>>>> master

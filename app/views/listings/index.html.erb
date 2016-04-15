@@ -1,6 +1,31 @@
-<h1>TreeHouses</h1>
 
+<<<<<<< HEAD
 <% @listings.each do |listing| %>
 
     <p><%= link_to listing.name, listing_path( listing.id ) %></p>
 <% end %>
+=======
+
+<h1>Welcome TreeHuggers!</h1>
+
+
+<%= stylesheet_link_tag "listings.scss" %>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+<br>
+<br>
+  <% @listings.each do |listing| %>
+  <div class="col-sm-6 col-md-4">
+    <%= link_to listing do %>
+      <h2><%= listing.name %></h2>
+      <%= image_tag(listing.photo,:width => 250, :height => 250, :crop => :fill,class: "img-circle") %>
+    <% end %>
+  </div>
+  <% end %>
+</div>
+<br>
+<br>
+<h3>Please <%= link_to "register", new_user_path %> first.</h3>
+<br>
+<br>
+>>>>>>> master

@@ -1,3 +1,32 @@
-// Place all the styles related to the listings controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body {
+    margin: 0;
+    min-height: 100%;
+    position: relative;
+    padding: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    color: #49A220;
+    font-variant: small-caps;background-clip: border-box;
+    background-color: rgb(229, 228, 228);
+    font-size: 28px;
+    link-color: white;
+    text-decoration: none;
+    background-attachment: scroll;
+    background-image: image-url('palmtree.jpg');
+
+}
+
+/* unvisited link */
+a {
+    font-size: 28px;
+    color: #186B00;
+    text-decoration: none;
+}
+a:hover {
+    color: white
+}
+
+.navbar{
+  background-color: #064107;
+}
