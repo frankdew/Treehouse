@@ -6,15 +6,14 @@ html, body {
     padding: 30px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-align: center;
-    position: sticky;
     color: #49A220;
-    font-variant: small-caps;
+    font-variant: small-caps;background-clip: border-box;
+    background-color: rgb(229, 228, 228);
     font-size: 28px;
     link-color: white;
     text-decoration: none;
+    background-attachment: scroll;
     background-image: image-url('palmtree.jpg');
-    background-repeat: no-repeat;
-
 
 }
 
