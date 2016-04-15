@@ -5,14 +5,25 @@ html, body {
     position: relative;
     padding: 30px;
     font-family: 'Open Sans Condensed', sans-serif;
-    text-align: justify;;
+    text-align: center;
     position: sticky;
     color: #49A220;
-    font-size: 25px;
+    font-size: 28px;
     link-color: white;
     text-decoration: none;
     background-image: image-url('palmtree.jpg');
     background-repeat: no-repeat;
 
 
+}
+
+/* unvisited link */
+a {
+    font-size: 28px;
+    color: #186B00;
+    text-decoration: none;
+}
+
+.navbar{
+  background-color: #064107;
 }
