@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 
   devise_for :users
+
   get 'about' => 'listings#about'
   get 'contact' => 'listings#contact'
    get 'listings' => 'listings#index'
